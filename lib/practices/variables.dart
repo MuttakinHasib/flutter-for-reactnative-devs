@@ -10,9 +10,9 @@ var nullValue;
 
 var zero = 0;
 
-if (zero == 0) {
-  print('Zero is zero');
-}
+// if (zero == 0) {
+//   print('Zero is zero');
+// }
 
 bool fn() {
   return true;

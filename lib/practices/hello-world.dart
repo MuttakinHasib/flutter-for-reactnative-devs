@@ -11,15 +11,13 @@ class HelloWorld extends StatefulWidget {
 class _HelloWorldState extends State<HelloWorld> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
-        child: Text(
-          'Hello, world!',
-          style: TextStyle(
-              decoration: TextDecoration.underline,
-              fontSize: 25,
-              fontWeight: FontWeight.w600),
-        ),
+    return const Center(
+      child: Text(
+        'Hello, world!',
+        style: TextStyle(
+            decoration: TextDecoration.underline,
+            fontSize: 25,
+            fontWeight: FontWeight.w600),
       ),
     );
   }
